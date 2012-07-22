@@ -15,12 +15,23 @@
 		54D18BA115BC1149000E9E86 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BA015BC1149000E9E86 /* DLAppDelegate.m */; };
 		54D18BA415BC1149000E9E86 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D18BA215BC1149000E9E86 /* MainStoryboard_iPhone.storyboard */; };
 		54D18BA715BC1149000E9E86 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D18BA515BC1149000E9E86 /* MainStoryboard_iPad.storyboard */; };
-		54D18BAA15BC1149000E9E86 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BA915BC1149000E9E86 /* DLViewController.m */; };
 		54D18BB215BC1149000E9E86 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D18BB115BC1149000E9E86 /* SenTestingKit.framework */; };
 		54D18BB315BC1149000E9E86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D18B9015BC1149000E9E86 /* UIKit.framework */; };
 		54D18BB415BC1149000E9E86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D18B9215BC1149000E9E86 /* Foundation.framework */; };
 		54D18BBC15BC1149000E9E86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54D18BBA15BC1149000E9E86 /* InfoPlist.strings */; };
 		54D18BBF15BC1149000E9E86 /* GKSessionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BBE15BC1149000E9E86 /* GKSessionExampleTests.m */; };
+		54D18BD215BC12DB000E9E86 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BC915BC12DB000E9E86 /* JoinViewController.m */; };
+		54D18BD315BC12DB000E9E86 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BC915BC12DB000E9E86 /* JoinViewController.m */; };
+		54D18BD415BC12DB000E9E86 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BCA15BC12DB000E9E86 /* HostViewController.m */; };
+		54D18BD515BC12DB000E9E86 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BCA15BC12DB000E9E86 /* HostViewController.m */; };
+		54D18BD615BC12DB000E9E86 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BCC15BC12DB000E9E86 /* MainViewController.m */; };
+		54D18BD715BC12DB000E9E86 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BCC15BC12DB000E9E86 /* MainViewController.m */; };
+		54D18BD815BC12DB000E9E86 /* MatchmakingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BCE15BC12DB000E9E86 /* MatchmakingServer.m */; };
+		54D18BD915BC12DB000E9E86 /* MatchmakingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BCE15BC12DB000E9E86 /* MatchmakingServer.m */; };
+		54D18BDA15BC12DB000E9E86 /* MatchmakingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BD115BC12DB000E9E86 /* MatchmakingClient.m */; };
+		54D18BDB15BC12DB000E9E86 /* MatchmakingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D18BD115BC12DB000E9E86 /* MatchmakingClient.m */; };
+		54D18BDD15BC17C9000E9E86 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D18BDC15BC17C9000E9E86 /* GameKit.framework */; };
+		54D18BDF15BC20C5000E9E86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D18BDE15BC20C5000E9E86 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +49,32 @@
 		54D18B9015BC1149000E9E86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54D18B9215BC1149000E9E86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54D18B9415BC1149000E9E86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		54D18B9815BC1149000E9E86 /* GKSessionExample-Info.plist */ = {isa = PBXFileReference; path = "GKSessionExample-Info.plist"; sourceTree = "<group>"; };
+		54D18B9815BC1149000E9E86 /* GKSessionExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKSessionExample-Info.plist"; sourceTree = "<group>"; };
 		54D18B9A15BC1149000E9E86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54D18B9C15BC1149000E9E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54D18B9E15BC1149000E9E86 /* GKSessionExample-Prefix.pch */ = {isa = PBXFileReference; path = "GKSessionExample-Prefix.pch"; sourceTree = "<group>"; };
-		54D18B9F15BC1149000E9E86 /* DLAppDelegate.h */ = {isa = PBXFileReference; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		54D18B9E15BC1149000E9E86 /* GKSessionExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKSessionExample-Prefix.pch"; sourceTree = "<group>"; };
+		54D18B9F15BC1149000E9E86 /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
 		54D18BA015BC1149000E9E86 /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
 		54D18BA315BC1149000E9E86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		54D18BA615BC1149000E9E86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		54D18BA815BC1149000E9E86 /* DLViewController.h */ = {isa = PBXFileReference; path = DLViewController.h; sourceTree = "<group>"; };
-		54D18BA915BC1149000E9E86 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
 		54D18BB015BC1149000E9E86 /* GKSessionExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKSessionExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D18BB115BC1149000E9E86 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54D18BB915BC1149000E9E86 /* GKSessionExampleTests-Info.plist */ = {isa = PBXFileReference; path = "GKSessionExampleTests-Info.plist"; sourceTree = "<group>"; };
+		54D18BB915BC1149000E9E86 /* GKSessionExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKSessionExampleTests-Info.plist"; sourceTree = "<group>"; };
 		54D18BBB15BC1149000E9E86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54D18BBD15BC1149000E9E86 /* GKSessionExampleTests.h */ = {isa = PBXFileReference; path = GKSessionExampleTests.h; sourceTree = "<group>"; };
+		54D18BBD15BC1149000E9E86 /* GKSessionExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKSessionExampleTests.h; sourceTree = "<group>"; };
 		54D18BBE15BC1149000E9E86 /* GKSessionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKSessionExampleTests.m; sourceTree = "<group>"; };
+		54D18BC815BC12DB000E9E86 /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostViewController.h; sourceTree = "<group>"; };
+		54D18BC915BC12DB000E9E86 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+		54D18BCA15BC12DB000E9E86 /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostViewController.m; sourceTree = "<group>"; };
+		54D18BCB15BC12DB000E9E86 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		54D18BCC15BC12DB000E9E86 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		54D18BCD15BC12DB000E9E86 /* MatchmakingServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingServer.h; sourceTree = "<group>"; };
+		54D18BCE15BC12DB000E9E86 /* MatchmakingServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingServer.m; sourceTree = "<group>"; };
+		54D18BCF15BC12DB000E9E86 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
+		54D18BD015BC12DB000E9E86 /* MatchmakingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingClient.h; sourceTree = "<group>"; };
+		54D18BD115BC12DB000E9E86 /* MatchmakingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingClient.m; sourceTree = "<group>"; };
+		54D18BDC15BC17C9000E9E86 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		54D18BDE15BC20C5000E9E86 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D18BDF15BC20C5000E9E86 /* AVFoundation.framework in Frameworks */,
+				54D18BDD15BC17C9000E9E86 /* GameKit.framework in Frameworks */,
 				54D18B9115BC1149000E9E86 /* UIKit.framework in Frameworks */,
 				54D18B9315BC1149000E9E86 /* Foundation.framework in Frameworks */,
 				54D18B9515BC1149000E9E86 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +125,8 @@
 		54D18B8F15BC1149000E9E86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54D18BDE15BC20C5000E9E86 /* AVFoundation.framework */,
+				54D18BDC15BC17C9000E9E86 /* GameKit.framework */,
 				54D18B9015BC1149000E9E86 /* UIKit.framework */,
 				54D18B9215BC1149000E9E86 /* Foundation.framework */,
 				54D18B9415BC1149000E9E86 /* CoreGraphics.framework */,
@@ -113,12 +138,20 @@
 		54D18B9615BC1149000E9E86 /* GKSessionExample */ = {
 			isa = PBXGroup;
 			children = (
+				54D18BCF15BC12DB000E9E86 /* JoinViewController.h */,
+				54D18BC915BC12DB000E9E86 /* JoinViewController.m */,
+				54D18BC815BC12DB000E9E86 /* HostViewController.h */,
+				54D18BCA15BC12DB000E9E86 /* HostViewController.m */,
+				54D18BCB15BC12DB000E9E86 /* MainViewController.h */,
+				54D18BCC15BC12DB000E9E86 /* MainViewController.m */,
+				54D18BCD15BC12DB000E9E86 /* MatchmakingServer.h */,
+				54D18BCE15BC12DB000E9E86 /* MatchmakingServer.m */,
+				54D18BD015BC12DB000E9E86 /* MatchmakingClient.h */,
+				54D18BD115BC12DB000E9E86 /* MatchmakingClient.m */,
 				54D18B9F15BC1149000E9E86 /* DLAppDelegate.h */,
 				54D18BA015BC1149000E9E86 /* DLAppDelegate.m */,
 				54D18BA215BC1149000E9E86 /* MainStoryboard_iPhone.storyboard */,
 				54D18BA515BC1149000E9E86 /* MainStoryboard_iPad.storyboard */,
-				54D18BA815BC1149000E9E86 /* DLViewController.h */,
-				54D18BA915BC1149000E9E86 /* DLViewController.m */,
 				54D18B9715BC1149000E9E86 /* Supporting Files */,
 			);
 			path = GKSessionExample;
@@ -265,7 +298,11 @@
 			files = (
 				54D18B9D15BC1149000E9E86 /* main.m in Sources */,
 				54D18BA115BC1149000E9E86 /* DLAppDelegate.m in Sources */,
-				54D18BAA15BC1149000E9E86 /* DLViewController.m in Sources */,
+				54D18BD215BC12DB000E9E86 /* JoinViewController.m in Sources */,
+				54D18BD415BC12DB000E9E86 /* HostViewController.m in Sources */,
+				54D18BD615BC12DB000E9E86 /* MainViewController.m in Sources */,
+				54D18BD815BC12DB000E9E86 /* MatchmakingServer.m in Sources */,
+				54D18BDA15BC12DB000E9E86 /* MatchmakingClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D18BBF15BC1149000E9E86 /* GKSessionExampleTests.m in Sources */,
+				54D18BD315BC12DB000E9E86 /* JoinViewController.m in Sources */,
+				54D18BD515BC12DB000E9E86 /* HostViewController.m in Sources */,
+				54D18BD715BC12DB000E9E86 /* MainViewController.m in Sources */,
+				54D18BD915BC12DB000E9E86 /* MatchmakingServer.m in Sources */,
+				54D18BDB15BC12DB000E9E86 /* MatchmakingClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +385,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,7 +404,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -376,6 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GKSessionExample/GKSessionExample-Prefix.pch";
 				INFOPLIST_FILE = "GKSessionExample/GKSessionExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +430,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GKSessionExample/GKSessionExample-Prefix.pch";
 				INFOPLIST_FILE = "GKSessionExample/GKSessionExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

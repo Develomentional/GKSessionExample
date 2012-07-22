@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Develomentional, LLC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
+    //#import <UIKit/UIKit.h>
+@class MainViewController;
 @interface DLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) MainViewController *viewController;
 @end
